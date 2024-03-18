@@ -1,0 +1,69 @@
+ PYTHON
+
+Características del lenguaje Python:  
+
+-Es un tipado dinámico (Es una variable que al momento de crearla puede almacenar un tipo de dato, y a lo largo del programa puede puede almacenar otro tipo de dato)
+
+-Es interpretado (Al momento de ejecutar un programa, se ejecuta instrucción por instrucción)
+
+¿Qué se puede programa con Python? 
+
+Se puede programar: aplicaciones de escritorio, aplicaciones web, juegos, aplicaciones a medida, inteligencia artificial, etc.
+ Entorno de desarrollo = Editor de desarrollo.  
+
+Tipos de datos: 
+Los textos - str - cadenas  
+Los numéricos - int - enteros 
+Los booleanos - float - decimales - true o false
+Nota: En la programación TRUE tiene el valor de 1, y FALSE tiene el valor de 0.
+
+Operadores Aritméticos 
+-Son utilizados para resolver operaciónes matemáticas.
+SON LOS SIGUIENTES:
+. +
+. -
+. *
+. / : División 
+. // : División sin decimal
+. ** : Exponente (elevado a) 
+. % : Módulo (residuo de la división) 
+ Prioridad de los Operadores Aritméticos:
+1. ( ) 
+2. **
+3. *,/,%
+4. +,-
+
+Operadores Relacionales
+-Se utilizan para establecer entre 2 valores.
+-Compara estos valores entre si y esta comparación produce un resultado de certeza o falsedad (verdadero o falso).
+-Tienen el mismo nivel de prioridad en su evaluación.
+-Los operadores relacionales tienen menor prioridad que los operadores aritméticos.
+SON LOS SIGUIENTES: 
+- > : Mayor que 
+- < : Menor que 
+- >= : Mayor o igual que 
+- <= : Menor o igual que
+- != : Diferente 
+- == : Igual 
+Nota: Los operadores relacionales se pueden combinar con los operadores aritméticos.
+
+Operadores Lógicos 
+-Permiten construir expresiones lógicas, se obtiene como resultado un dato booleano.
+SON LOS SIGUIENTES: 
+- and que es una conjunción.
+(and es una multiplicación lógica)
+- or que es una disyunción. 
+(or es una suma lógica)
+- not solo es una negación.
+(true = false, false = true)
+Prioridad de los Operadores Lógicos
+1. not 
+2. and 
+3. or 
+Nota: Los operadores lógicos se pueden combinar con los operadores relacionales. 
+PRIORIDAD GENERAL DE LOS 3 OPERADORES:
+1. ( )
+2. **
+3. *, /, %, not
+4. +, -, and
+5. >, <, ==, >=, <=, !=, or

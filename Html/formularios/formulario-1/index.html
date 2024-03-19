@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de la página " >
+    <meta name="keywords" content="Palabras Clave del Proyecto" >
+    <meta name="sitedomain" content="https://example.com" />
+    <meta name="organization" content="nombre de la pág" />
+    <meta name="author" content="Nombre del Autor" >
+    <meta name="designer" content="Nombre del Autor" >
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="revisit-after" content="15 days" />
+    <link rel="shortcut icon" href="./src/img/iconRiwi.png" type="image/x-png">
+    <title>REGISTRO</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>FORMULARIO DE REGISTRO</h1>
+        </center>   
+    </header>
+    <main>
+        <form action="./src/pages/server.html" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>INFORMACIÓN BÁSICA</legend>
+                <br>
+                <div>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" name="Nombre" id="Nombre" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="text" name="Apellidos" id="Apellidos" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                    <input type="date" name="Fecha de nacimiento" id="Fecha de nacimiento" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" placeholder="example@xxxx.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Contraseña">Contraseña del correo</label>
+                    <input type="password" name="Contraseña" id="Contraseña" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Confirmar Contraseña">Confirmar Contraseña</label>
+                    <input type="password" name="Confirmar Contraseña" id="Confirmar Contraseña" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Pais">País de Residencia</label>
+                    <input list="Pais residencia" name="Pais residencia" id="Pais" placeholder="En el que vives" required>
+                    <datalist id="Pais residencia">
+                        <option value="" disabled selected></option>
+                        <option value="COL">Colombia</option>
+                        <option value="EE.UU">Estados Unidos</option>
+                        <option value="CL">Chile</option>
+                        <option value="UY">Uruguay</option>
+                        <option value="NL">Holanda</option>
+                    </datalist>
+                </div>
+                <br>
+                <div>
+                    <label for="Telefono">Teléfono</label>
+                    <input type="tel" id="Telefono" placeholder="#Celular" required>
+                    <select name="Telefono" id="Telefono">
+                        <option value="" disabled selected></option>
+                        <option value="+57">+57</option>
+                        <option value="+1">+1</option>
+                        <option value="+56">+56</option>
+                        <option value="+598">+598</option>
+                        <option value="+31">+31</option>
+                    </select>   
+                </div>
+                <br>
+                <div>
+                    <label for="Color favorito">Color favorito</label>
+                    <input type="color" name="Color favorito" id="Color favorito">
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>DETALLES ACADÉMICOS</legend>
+                <div>
+                    <label>Nivel de estudio</label>
+                    <br>
+                    <span>
+                        <input type="checkbox" name="NivelesDE" id="NivelesDE" required>
+                        Educación Básica
+                    </span>
+                    <span>
+                        <input type="checkbox" name="NivelesDE" id="NivelesDE" required>
+                        Educación Media
+                    </span>
+                    <span>
+                        <input type="checkbox" name="NivelesDE" id="NivelesDE" required>
+                        Educación Superior
+                    </span>
+                    <span>
+                        <input type="checkbox" name="NivelesDE" id="NivelesDE" required>
+                        Ninguna
+                    </span>
+                </div>
+                <br>
+                <div>
+                    <label for="Fecha de inicio de estudios">Fecha de inicio de estudios</label>
+                    <input type="date" name="Fecha de inicio de estudios" id="Fecha de inicio de estudios">
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>EXPERIENCIA LABORAL</legend>
+                <div>
+                    <label for="Descripción">Describe tu experiencia</label>
+                    <textarea name="Descripción" id="Descripción" cols="40" rows="9" placeholder="Escribe aquí"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="Link de tu CV">Link de tu CV</label>
+                    <input type="url" name="Link de tu CV" id="Link de tu CV" placeholder="https://">
+                </div>
+                <br>
+                <div>
+                    <label for="Carga tu CV aquí">Carga tu CV aquí</label>
+                    <input type="file" name="Carga tu CV aquí" id="Carga tu CV aquí"required>
+                </div>
+                <br>
+                <div>
+                    <label for="Foto de perfil">Foto de perfil</label>
+                    <input type="file" name="Foto de perfil" id="Foto de perfil">
+                </div>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar Formulario</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
